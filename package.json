@@ -1,0 +1,32 @@
+{
+  "name": "rainbow-coming-soon-page",
+  "version": "1.0.0",
+  "homepage": "https://rainbowstyle.co/",
+  "description": "Rainbow Style",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "moment": "2.29.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "^5.0.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0",
+    "typescript": "3.3.3"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

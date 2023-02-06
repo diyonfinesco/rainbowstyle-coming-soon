@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap");
+
+body {
+  color: #fff;
+  font-family: "Roboto Condensed", sans-serif;
+  background: url(https://images.unsplash.com/photo-1567401893414-76b7b1e5a7a5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.App {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  background: #343A40;
+  background: linear-gradient(0deg,
+      rgba(52, 58, 64, 1) 0%,
+      rgba(52, 58, 64, 0.6) 50%,
+      rgba(52, 58, 64, 0.6) 100%);
+}
+
+.container {
+  width: 100%;
+  margin: 05% auto;
+}
+
+.col-4 {
+  width: 25%;
+  float: left;
+}
+
+h1 {
+  font-size: 50px;
+  text-transform: uppercase;
+  line-height: 1;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 1100px;
+  }
+
+  h1 {
+    font-size: 58px;
+  }
+}
