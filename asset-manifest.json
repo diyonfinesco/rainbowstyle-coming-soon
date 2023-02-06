@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/rainbowstyle-coming-soon/static/css/main.5ec1a97a.css",
-    "main.js": "/rainbowstyle-coming-soon/static/js/main.793a87b0.js",
-    "static/media/logo.png": "/rainbowstyle-coming-soon/static/media/logo.f34b4058ab360f7e111e.png",
-    "index.html": "/rainbowstyle-coming-soon/index.html",
-    "main.5ec1a97a.css.map": "/rainbowstyle-coming-soon/static/css/main.5ec1a97a.css.map",
-    "main.793a87b0.js.map": "/rainbowstyle-coming-soon/static/js/main.793a87b0.js.map"
+    "main.css": "/static/css/main.5ec1a97a.css",
+    "main.js": "/static/js/main.468c0c8a.js",
+    "static/media/logo.png": "/static/media/logo.f34b4058ab360f7e111e.png",
+    "index.html": "/index.html",
+    "main.5ec1a97a.css.map": "/static/css/main.5ec1a97a.css.map",
+    "main.468c0c8a.js.map": "/static/js/main.468c0c8a.js.map"
   },
   "entrypoints": [
     "static/css/main.5ec1a97a.css",
-    "static/js/main.793a87b0.js"
+    "static/js/main.468c0c8a.js"
   ]
 }
